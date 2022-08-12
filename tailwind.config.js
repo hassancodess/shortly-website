@@ -17,6 +17,9 @@ module.exports = {
       spacing: {
         180: '32rem',
       },
+      backgroundImage: {
+        cta: "url('/images/bg-boost-desktop.svg')",
+      },
     },
   },
   plugins: [],
