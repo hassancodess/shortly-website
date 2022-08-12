@@ -4,10 +4,58 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Shortly Website</title>
   </head>
   <body>
-    <h1 class="mb-4 text-4xl">Welcome</h1>
+    <!-- Nav Container -->
+    <nav class="container relative p-6 mx-auto">
+      <!-- Flex Container -->
+      <div class="flex items-center justify-between">
+        <!-- Left Side -->
+        <div class="flex items-center space-x-20">
+          <!-- Logo -->
+          <img src="images/logo.svg" alt="logo" />
+          <!-- Menu -->
+          <div class="hidden space-x-8 font-bold lg:flex">
+            <a
+              href="#"
+              class="duration-300 text-grayishViolet hover:text-veryDarkViolet"
+              >Features</a
+            >
+            <a
+              href="#"
+              class="duration-300 text-grayishViolet hover:text-veryDarkViolet"
+              >Pricing</a
+            >
+            <a
+              href="#"
+              class="duration-300 text-grayishViolet hover:text-veryDarkViolet"
+              >Resource</a
+            >
+          </div>
+        </div>
+        <!-- Right Side -->
+        <div class="items-center hidden space-x-8 text-grayishViolet lg:flex">
+          <button class="font-bold duration-300 hover:text-veryDarkViolet">
+            Login
+          </button>
+          <button
+            class="px-8 py-4 font-bold text-white duration-300 border-2 rounded-full bg-cyanLight hover:bg-white hover:text-cyanLight border-cyanLight"
+          >
+            Sign Up
+          </button>
+        </div>
+        <!-- Hamburger Menu -->
+      </div>
+      <!-- Mobile Menu -->
+    </nav>
   </body>
 </html>
